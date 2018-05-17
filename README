@@ -1,0 +1,63 @@
+
+
+	BIENVENUE DANS CETTE SIMULATION D'UNE FOURMILIERE !!
+
+
+PRESENTATION :
+
+    Une FOURMILIERE se trouve quelque part dans la partie centrale 
+du terrain de la simulation. 
+Elle va générer des fourmis en fonction de la situation : 
+* Des FOURMIS ECLAIREUSES, dont le rôle est de parcourir le terrain
+ à la recherche de nourriture.
+* Des FOURMIS TRANSPORTEUSES pour aller chercher la nourriture 
+détectée.
+* Des FOURMIS COMBATTANTES, qui doivent lutter contre les ENNEMIS qui
+ arriveront des quatres coins du terrain.
+    
+* Des OBSTACLES sont présents sur le terrain pour gêner la progression
+ des Fourmis et des ENNEMIS.
+
+* Les ENNEMIS parcourent le terrain puis poursuivre les Fourmis et les
+ tuer. Ils peuvent attaquer la FOURMILIERE.
+
+
+COMMENT LANCER LA SIMULATION :
+
+	Dans le projet java, l'exécutable se trouve à l'emplacement 
+suivant :   projet_fourmis/src/main/Simulation.java/
+
+Une fois la classe Simulation.java ouverte dans un IPE de java comme
+ Eclipse, il faut exécuter le code. S'affiche ensuite dans la console
+une fenêtre vous proposant de lancer la configuration par défaut :
+ __________________________________________________________________
+|Paramètres par défaut 						   |
+|	'oui' : taper 1						   |
+|	'non' : taper 0						   |
+|								   |
+|__________________________________________________________________|
+
+Si vous entrez 1, la simulation est lancée avec les paramètres par
+défaut, sinon la fenêtre suivante s'affiche, vous demandant
+successivement (avec des limites indiquées) :
+* la largeur du terrain
+* la longueur du terrain
+* le nombre d'obstacles sur le terrain
+* le nombre d'ennemis
+* le nombre de sites de nourriture
+* le nombre maximum de tour au bout duquel la simulation s'arrête
+
+ _________________________________________________________________
+|Paramètres par défaut 						   |
+|	'oui' : taper 1						   |
+|	'non' : taper 0						   |
+|								   |
+|Entrez le paramètre 1 : largeur du terrain (contrainte: entier    |
+|compris entre 15 et 65)					   |
+||								   |
+|__________________________________________________________________|
+
+Une fois le dernier paramètre entré, la fenêtre s'ouvre et la 
+simulation est lancée.
+
+
